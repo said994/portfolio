@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Full stack web developer, Mohamed Said Yabrir, I love to build you your dream web site.">
+    <meta property="og:title" content="Mohamed Said Yabrir portfolio.">
+    <meta property="og:description" content="Build your MERN project fast and secure with clean and readable code.">
+    <meta property="og:type" content="Website">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="app.js" defer></script>
+
+    <title>Said Yabrir Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav__bar">
+        <div class="toggle-btn">
+          <span class="bar bar-1"></span>
+          <span class="bar bar-2"></span>
+          <span class="bar bar-3"></span>
+        </div>
+        <ul class="list hidden">
+          <li class="item"><a href="#about">About</a></li>
+          <li class="item"><a href="#skills">Skills</a></li>
+          <li class="item"><a href="#projects">Projects</a></li>
+          <li class="item"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h1 class="header header-name">M.S.Y.</h1>
+        <svg version="1.1" class="wave">
+          <path
+            d=" M0 67
+                  C 273,183
+                    822, -40
+                    1920,106
+                  V 600
+                  H 0
+                  V 67
+                  Z
+                  "
+          >
+            <animate
+              repeatCount="indefinite"
+              attributeName="d"
+              dur="40s"
+              attributeType="XML"
+              values="
+                          M0 77
+                          C 473, 283
+                            822, -40
+                            1920, 116
+  
+                            V 600
+                            H 0
+                            V 300
+                            Z;
+  
+                            M0 77
+                            C 473, -40
+                            1222, 283
+                            1920, 136
+  
+                            V 600
+                            H 0
+                            V 300
+                            Z;
+  
+                            M0 77
+                            C 973, 260
+                            1722, -53
+                            1920, 120
+  
+                            V 600
+                            H 0
+                            V 300
+                            Z;
+  
+                            M0 77
+                            C 473, 283
+                            822, -40
+                            1920, 116
+  
+                            V 600
+                            H 0
+                            V 300
+                            Z"
+            ></animate>
+          </path>
+        </svg>
+      </section>
+      <section class="section section-about" id="about">
+        <h2 class="header">About me:</h2>
+        <div class="text--container" data-aos="fade-up">
+          <p class="text-about">
+            Hello, my name is Mohamed Said Yabrir, in 2019, I graduated from
+            university obtaining masters' degree in networking and distributed
+            system, and I'm software developer that specialized in the web. I
+            love to build web fast and responsive web pages and complex web
+            applications. I'm love to challenge my self by learning new
+            technologies.
+          </p>
+        </div>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="header">My skills:</h2>
+        <div class="container-skills">
+          <div class="skill">
+            <svg class="icon" data-aos="flip-up">
+              <use xlink:href="images/sprite.svg#html5"></use>
+            </svg>
+            <p data-aos="zoom-in">
+              Write html markup that semantic and SEO friendly.
+            </p>
+          </div>
+
+          <div class="skill">
+            <svg class="icon" data-aos="flip-up">
+              <use xlink:href="images/sprite.svg#css3"></use>
+            </svg>
+            <p data-aos="zoom-in">
+              Enhance visual effect, and build responsive design across
+              platforms.
+            </p>
+          </div>
+
+          <div class="skill">
+            <svg class="icon" data-aos="flip-up">
+              <use xlink:href="images/sprite.svg#javascript"></use>
+            </svg>
+            <p data-aos="zoom-in">
+              Building complex apps with mind of better user experience, and
+              clean coding.
+            </p>
+          </div>
+
+          <div class="skill">
+            <svg class="icon" data-aos="flip-up">
+              <use xlink:href="images/sprite.svg#react"></use>
+            </svg>
+            <p data-aos="zoom-in">
+              Building Building medium to big projects, single page applications
+              to big projects, single page applications.
+            </p>
+          </div>
+
+          <div class="skill">
+            <svg class="icon" data-aos="flip-up">
+              <use xlink:href="images/sprite.svg#nodejs"></use>
+            </svg>
+            <p data-aos="zoom-in">
+              Build fast and secure restful by server hiding sensitive
+              information.
+            </p>
+          </div>
+
+          <div class="skill">
+            <svg class="icon" data-aos="flip-up">
+              <use xlink:href="images/sprite.svg#mongodb"></use>
+            </svg>
+            <p data-aos="zoom-in">
+              Design and build scalable non-relational database for storage
+              informations and secure password.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="projects">
+        <h2 class="header">My Projects:</h2>
+        <article class="article">
+          <h3 class="article--header">Weather App:</h3>
+          <div class="container-project">
+            <div class="container-img" data-aos="zoom-in">
+              <a href="https://weatherappyabrir.netlify.app/">
+                <picture>
+                  <source type="image/webp" srcset="images/Weather.webp" />
+                  <source type="image/jpg" srcset="images/Weather.jpg" />
+                  <img
+                    class="img-project"
+                    src="images/Weather.jpg"
+                    alt="Link to Weather app."
+                  />
+                </picture>
+              </a>
+            </div>
+            <div class="article__text">
+              <p class="text-description" data-aos="zoom-in-left">
+                Weather app that tries to locate user and fetch his' location
+                weather from 3rd party API.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="article">
+          <h3 class="article--header">Multiplay TIK-TAC-TOE App:</h3>
+          <div class="container-project">
+            <div class="container-img" data-aos="zoom-in">
+              <a href="https://tik-tac-toe-byyabrir.netlify.app/">
+                <picture>
+                  <source type="image/webp" srcset="images/Tik-Tac-Toe.webp" />
+                  <source type="image/jpg" srcset="images/Tik-Tac-Toe.jpg" />
+                  <img
+                    class="img-project"
+                    src="images/Tik-Tac-Toe.jpg"
+                    alt="Link to multiply Tik-Tac-Toe app."
+                  />
+                </picture>
+              </a>
+            </div>
+            <div class="article__text">
+              <p class="text-description" data-aos="zoom-in-right">
+                Multiplayer game you can create a room or join created one and
+                play with someone else from different devices or PCs.
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="section section-contact" id="contact">
+        <h2 class="header">Contect Me Here</h2>
+        <ul class="list list-contact" >
+          <li class="item" >
+            <a href="https://www.linkedin.com/in/said-yabrir-010aa2162/">
+              <svg class="icon">
+                <use xlink:href="images/sprite.svg#github"></use>
+              </svg>
+              <p>Githup Repo</p>
+            </a>
+          </li>
+          <li class="item" >
+            <a href="https://github.com/said994?tab=repositories">
+              <img src="./images/linkedin.svg" alt="LinkedIn account" />
+              <p>LinkedIn account</p>
+            </a>
+          </li>
+          <li class="item" ">
+            <a href="mailto:saidyabrir@gmail.com">
+              <svg class="icon">
+                <use xlink:href="images/sprite.svg#gmail"></use>
+              </svg>
+              <p>saidyabrir@gmail.com</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
