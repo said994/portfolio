@@ -1,10 +1,10 @@
 {
-  "name": "Portfolio",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "build": "parcel index.html"
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
