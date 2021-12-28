@@ -15,6 +15,7 @@ body {
 
   color: #ecf0f1;
   line-height: 1.5;
+  background-color: rgb(2, 5, 0);
 }
 
 h1 {
@@ -165,7 +166,6 @@ p {
 }
 
 .section {
-  background-color: rgb(2, 5, 0);
   padding-top: 8rem;
 }
 
