@@ -11,6 +11,7 @@ const handelResposiveNavBar = () => {
 
 const handelMobileLink = () => {
   toggleNavBarClasses();
+  toggleBtn.classList.toggle("open");
 };
 
 const toggleNavBarClasses = () => {
